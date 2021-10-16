@@ -91,6 +91,9 @@ export const itemPrefixes = [
 	'分散型的',
 	'次世代的',
 	'带电的',
+	'史前时代的',
+	'支持WiFi的',
+	'高回弹力的',
 ];
 
 export const items = [
@@ -254,8 +257,9 @@ export const items = [
 	'null',
 	'NaN',
 	'[object Object]',
-	'ゼロ幅スペース',
-	'全角スペース',
+	'零宽空格',
+	'全角空格',
+	'太鼓',
 ];
 
 export const and = [

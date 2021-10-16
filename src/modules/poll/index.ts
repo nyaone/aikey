@@ -62,19 +62,11 @@ export default class extends Module {
 			['喵窝里可能有的东西', '您认为这些东西中哪些可能在喵窝里？'],
 			['可燃垃圾', '您们认为以下哪些是可燃垃圾？'],
 			['最喜欢的饭团馅', '您最喜欢的饭团馅是什么？'],
-			['超级闪亮', '大家认为自己是不是超级闪亮呢？'],
 		];
 
 		const poll = polls[Math.floor(Math.random() * polls.length)];
 
-		const choices = poll[0] === '什么东西超级闪亮' ? [
-			'是',
-			'差不多吧',
-			'都不是',
-			'宁可不同意',
-			'并非如此',
-			'不知道・不想回答',
-		] : [
+		const choices = [
 			genItem(),
 			genItem(),
 			genItem(),
